@@ -60,8 +60,16 @@ table{
     
 }
 
+.case{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 45%;
+}
+
 .case:active{
     background-color: grey;
+    
 }
 
 .ecran{
@@ -86,10 +94,7 @@ table{
     direction: rtl;
 }
 
-.case{
-    width: 50px;
-    height: 50px;
-}
+
 
 .num{
     background-color: white;

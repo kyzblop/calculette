@@ -15,7 +15,7 @@ var tab = []
 document.getElementById("chif1").addEventListener("click", () => {
     let text = document.getElementById('textEcran')
 
-    if(reset = true){
+    if(reset == true){
         text.innerHTML = "1"
     } else {
         text.innerHTML = text.textContent + "1"
